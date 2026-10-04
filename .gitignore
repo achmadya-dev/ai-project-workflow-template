@@ -1,0 +1,13 @@
+# Local and generated files; configure additional ignore rules for the chosen stack.
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+coverage/
+.output/
+playwright-report/
+test-results/
+*.log
+.DS_Store
